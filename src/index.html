@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gradient-to-r from-purple-500 to-pink-500">
+    <section class="h-screen grid grid-rows-[auto_1fr]">
+      <header
+        class="flex justify-between items-center max-w-page justify-self-center w-full py-5"
+      >
+        <div class="flex items-center space-x-8">
+          <h3 class="text-xl text-white font-bold">Stripe</h3>
+          <ul
+            class="flex space-x-8 [&>li]:text-white [&>li]:font-medium [&>li]:text-sm"
+          >
+            <li>Products</li>
+            <li>Solutions</li>
+            <li>Developers</li>
+            <li>Resources</li>
+            <li>Pricing</li>
+          </ul>
+        </div>
+        <div
+          class="flex space-x-8 [&>button]:text-white [&>button]:font-medium [&>button]:text-sm"
+        >
+          <button>Contact sales</button>
+          <button>Sign in</button>
+        </div>
+      </header>
+      <div class="grid grid-cols-[auto_1fr] pl-60">
+        <div class="my-auto">
+          <h2 class="text-7xl font-600 leading-extra-loose">
+            Financial <br />Infrastructure <br />
+            for the internet
+          </h2>
+          <p class="text-medium font-medium mt-5 max-w-3xl leading-7">
+            Millions of companies of all sizes—from startups to Fortune <br />
+            500s—use Stripe’s software and APIs to accept payments, <br />
+            send payouts, and manage their businesses online.
+          </p>
+          <div class="flex space-x-8 mt-10">
+            <button class="bg-[#0a2540] text-white px-8 py-3 rounded-full">
+              Start now
+            </button>
+            <button class="bg-transparent text-black">Contact sales</button>
+          </div>
+        </div>
+        <div class="grid justify-self-end relative pt-10">
+          <img src="images/image_two.png" alt="" class="w-[550px]" />
+          <img
+            src="images/image_one.png"
+            alt=""
+            class="absolute h-[500px] -left-20 top-28"
+          />
+        </div>
+      </div>
+    </section>
+    <div
+      class="w-0 h-0 border-l-[100vw] border-b-[30vw] border-l-transparent -mt-[30vw]"
+    ></div>
+  </body>
+</html>
